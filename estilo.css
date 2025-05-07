@@ -113,4 +113,19 @@
       padding: 2rem 1rem;
     }
   }
+
+.contenedor-video {
+  width: 100%;         /* que el video se adapte al ancho del contenedor */
+  max-width: 800px;    /* tamaño máximo para que no se vea demasiado grande */
+  margin: 0 auto;      /* centrar el video */
+  padding: 20px;       /* espacio alrededor */
+  box-sizing: border-box;
+}
+
+.contenedor-video video {
+  width: 100%;         /* video ocupa todo el ancho del contenedor */
+  height: auto;        /* mantener la proporción del video */
+  border-radius: 10px; /* esquinas redondeadas (opcional) */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* sombra suave */
+}
   
